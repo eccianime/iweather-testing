@@ -27,25 +27,25 @@ export function WeatherDetails({ data }: Props) {
     <View style={styles.container}>
       <WeatherItem
         icon={thermometer}
-        title="Sensação térmica"
+        title="Sensación térmica"
         value={data.feels_like}
       />
 
       <WeatherItem
         icon={rain}
-        title="Probabilidade de chuva"
+        title="Probabilidad de lluvia"
         value={data.probability}
       />
 
       <WeatherItem
         icon={wind}
-        title="Velocidade do vento"
+        title="Velocidad del viento"
         value={data.wind_speed}
       />
 
       <WeatherItem
         icon={drop}
-        title="Umidade do ar"
+        title="Humedad del aire"
         value={data.humidity}
       />
 

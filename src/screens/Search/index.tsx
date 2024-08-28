@@ -43,11 +43,11 @@ export function Search() {
 
         <View style={styles.content}>
           <Text style={styles.title}>
-            Boas vindas ao <Text style={styles.brand}>iWeather</Text>
+            Bienvenido <Text style={styles.brand}>iWeather</Text>
           </Text>
 
           <Text style={styles.subtitle}>
-            Escolha um local para ver a previsão do tempo
+            Escoja un lugar para ver la previsión del tiempo
           </Text>
 
           <SelectList
@@ -55,7 +55,7 @@ export function Search() {
             onChange={setSearch}
             isLoading={isLoading}
             onPress={handleChanceCity}
-            placeholder="Buscar local"
+            placeholder="Buscar lugar"
           />
         </View>
       </ImageBackground>
